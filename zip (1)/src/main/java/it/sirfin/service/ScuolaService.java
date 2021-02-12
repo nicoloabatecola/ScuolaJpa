@@ -5,6 +5,7 @@ import java.util.List;
 
 public interface ScuolaService {
 
+    void inizializzazione();
     void inserisciDocente(Docente doc);
     void cancellaDocenti();
     List<Docente> recuperaTuttiDocenti();
